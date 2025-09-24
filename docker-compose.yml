@@ -20,8 +20,7 @@ services:
 
   # phpMyAdmin
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:latest
-    platform: linux/amd64
+    image: arm64v8/phpmyadmin
     container_name: attractions_phpmyadmin
     restart: unless-stopped
     environment:
