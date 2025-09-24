@@ -1,7 +1,7 @@
 CREATE TABLE `attraction` (
   `id` int(11) NOT NULL,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `detail` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `detail` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
   `coverimage` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `latitude` double NOT NULL,
   `longitude` double NOT NULL
